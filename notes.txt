@@ -1,0 +1,59 @@
+Date 28 Aug 2025
+
+Before c BCPL lang
+
+Features of Java
+- simple
+- Platform Independent 
+- Arch Neutral 
+- Interpreted Language (Dynamically typed) Dynamically cast data type
+- Robust (Mem mangemetn using garbage collectore)
+- Safe (Various modifiers)
+- OOP
+- High Lvel
+- Multi Threading
+
+
+java black book - must read (Tata Mcgraw hill)
+
+
+File name same as Class with main function
+- when java compiles the code everything is coneverted to class file, and we execute it so during execution we need the class where the main function lies hence wee need to maintain the consistency for the name to compiler to find the main function.
+
+
+Static
+- we acess static function outside the class without the object of the class
+
+Why always Hello world
+- to check the system installation of the prgramming Language we use first program as hello world.
+
+Patterns name
+
+Program Parts -
+
+Declaration 
+Data (input, initilaize)
+Process
+Output
+
+
+Q. A driver logs km driven and fulel used after each trip, calculate average fuel efficency
+Q. You are managing a reaturant each customer can order multiple items 
+ - Let the cashier input items names and prices until done is type
+ - calculate and siplay the total
+ - Repeat this process for each customer until exit is typed
+
+Q. Calculate area of circle
+
+Q. car parking lot system 
+- car enter
+- car exit 
+- car occupied
+
+
+Date 29 August 
+
+Sttring -
+ Sequence of characters in java, that are used to store text. String is fundamental class in java and part of java.lang package. It is a not a primitve a type. 
+
+ String is immuatable, once a string object is created its content cant be chnged. ANy operattion that seems to modify a string like toUpperCae(), toLowerCase(),concat(), replace actually creates a new string object with the modified content living original untouched.
