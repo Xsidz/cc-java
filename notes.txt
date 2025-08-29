@@ -51,3 +51,62 @@ Q. car parking lot system
 - car occupied
 
 
+Date 29 August 
+
+#String -
+ Sequence of characters in java, that are used to store text. String is fundamental class in java and part of java.lang package. It is a not a primitve a type. 
+
+ String is immuatable, once a string object is created its content cant be chnged. ANy operattion that seems to modify a string like toUpperCae(), toLowerCase(),concat(), replace actually creates a new string object with the modified content living original untouched.
+
+ Why Immutable ?
+
+ - To provide security
+ Prevents malicous code from altering sensitive string
+
+- Thread Safety
+ Mulitple threads can access, a string concurrently without worrying about data corruption because its state never changes
+
+ - Caching
+ Also known as String pool / Literal Pool  
+ Allows string to be efficently cache and reused 
+
+-String Pool / Literal Pool
+ To optimise the memory usage, java maintains a special area in memory called String pool / Literal Pool.
+
+ When you create a string using a literal java first checks if that string already exist in the pool, if yes then existing object's refrence is returned , if not a new string obvect is created in the pool and its is refrence is returned.
+
+-String Builder
+When you perform multiple modifications a new string object is created in memory for each operation. This leads to performance overhead that is constant creation and garbage collection of temp string objects. 
+
+Wasted memory due to many discarded intermediate string objects this is called memory in-efficency.
+
+String builders are muttable, these objects are designed to be modified in-place without creating new objects, this makes highly efficient for building strings dynamically.
+
+Its methods are not synchronized - A single thread can access at a single time.
+
+Methods 
+1. append() - appends data to end
+2. insert(i,data) - appends data at specific index
+3. delete(start,end)- removes data from start idx to end idx-1
+4. reverse() - 
+5. toString()- convert the data to string and new string object
+
+String Buffer-
+Mutable like string builders, all its methods are synchronized when multiple threads modify the same string simultenously for most common single threaded applications , string builder is prefered due to itts performance.
+
+when you need to perform many modifications on a string in single threaded env then you can use string builder
+
+When you need thread safe string manipulations and the multiple thread might access and modify same string object concurrently then use string buffer
+
+Arrays-
+
+Linear data structure which stores homogenous data in contigous memory locations
+
+Why similar Data only ?
+Why indexing starts from 0?
+
+Jagged array -
+Each row has different number of columns
+
+Q. Take arrays from user,if any zero occured then move all zero to end while mainting the order of non zero element.
+
