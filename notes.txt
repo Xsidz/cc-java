@@ -51,9 +51,3 @@ Q. car parking lot system
 - car occupied
 
 
-Date 29 August 
-
-Sttring -
- Sequence of characters in java, that are used to store text. String is fundamental class in java and part of java.lang package. It is a not a primitve a type. 
-
- String is immuatable, once a string object is created its content cant be chnged. ANy operattion that seems to modify a string like toUpperCae(), toLowerCase(),concat(), replace actually creates a new string object with the modified content living original untouched.
