@@ -110,3 +110,10 @@ Each row has different number of columns
 
 Q. Take arrays from user,if any zero occured then move all zero to end while mainting the order of non zero element.
 
+1st sep 
+
+In a school system each studnt has a roll no , name and grade. When a student object is created, htese values should be initilaized immeditately
+
+In a banking system customers can open acoount with their name,acc no, and opening bal, the system must support deposite and withdrawl options use parametrized consttructors to initliaze accounts properly.
+
+In a document editing system lik ms office, when user make changes the system should be able to create a new version of document based on the existing one but allow further modifications withoutt affecting the original
