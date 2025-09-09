@@ -1,0 +1,26 @@
+08/09 
+
+Answer the questions for almost 3-5 mins each. 
+Discuss the content properly.
+
+What is ds?
+
+why learn ds?
+- Fast Performance 
+- 
+
+Solutions in ds
+- Algorithmic Solutions
+- Heuristic Solutions
+
+
+Depending on requirement of solution we have 2 requiremets
+- Time Complexity
+- Space Complexity
+ 
+
+
+Tomorrow : 
+- ArrayList
+- Binary Search
+

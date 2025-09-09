@@ -117,3 +117,27 @@ In a school system each studnt has a roll no , name and grade. When a student ob
 In a banking system customers can open acoount with their name,acc no, and opening bal, the system must support deposite and withdrawl options use parametrized consttructors to initliaze accounts properly.
 
 In a document editing system lik ms office, when user make changes the system should be able to create a new version of document based on the existing one but allow further modifications withoutt affecting the original
+
+2nd Sep 
+
+Polymorphism 
+
+poly - many
+Morphic - Effect (change of behaviour/state)
+ with / along object
+
+ IMAGINE A ONLINE STORE THAT ACCEPTS DIFFERENT PAYMENT METHODS CREDIT CARD, PAYPAL AND UPI EACH PAYMENT METHOD HAS A DIFFERNT WAY OF PROCESSIGN PAYMENTS BUT ALL SHARE THE SAME COMMON ACTION THAT IS PAY METHODE 
+
+ A NOTIFICATION SYSTEM THAT CAN SEND EMAIL, SMS OR PUSH NOTIFICATION TO USER, EACH NOTIFICATION HAS A COMMON METHODE SEND AND PARAMNETERS ARE STRING MESSAGE, EACH NOTIFICATION TYPE HAS ITS OWN WAY OF SENDING MESSAGE 
+
+ YOU ARE BUILDING A SYSTEM THAT HANDELS DIFFERNT SPORTS LIKE FOOTBALL, CRICKET AND BASKETBALL. EACH SPORTS HAS ITS OWN RULES FOR STARTING A GAME AND OWN NUMBER OF PLAYERS. YOU WANT TO DESIGN A SYSTEM WHERE YOU ONNLY DEFINE WHAT EACH SPORTS SHOULD DO LIKE START GAME, NO OF PLAYERS ETC. YOU DONT CARE EACH SPORTS DOES IT.
+
+ 3sep 
+
+ Final : If we use final key word with function we cannot override it, and class couldnt be extended
+
+ Implemetb a class counter with following features:
+ 1. has a constant MAX_COUNT = 1000
+ 2. A private counter variable 
+ 3. A methode increment that increases the counter upto MAX_COUNT
+ 4. getCount to retrive the current count
