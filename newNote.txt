@@ -24,3 +24,16 @@ Tomorrow :
 - ArrayList
 - Binary Search
 
+
+9th Sep 
+
+- Binary Search 
+ Calculation of Time Complexity of Binary Search
+
+ start + (end-start/2)
+
+
+}
+
+
+
