@@ -37,3 +37,11 @@ Tomorrow :
 
 
 
+Garbage collector works on heap memory
+variable names are store in the stack memory and values are store in heap memory and has address to it.
+
+Variables cant be changes in stack memeory
+
+Instance variables can be initialezed in the constructors
+is a relation - inheertance
+has a relation 

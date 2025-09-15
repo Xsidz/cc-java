@@ -88,7 +88,6 @@ public class CC {
 
     public static int[] twoSum(int arr[], int target) {
         int start = 0, end = 1;
-        int idxr = -1, idxl = -1;
 
         if (arr.length < 1) {
             return new int[] { start, end };

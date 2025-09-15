@@ -1,1 +1,1 @@
-return res;
+em.out.println(list.size);
